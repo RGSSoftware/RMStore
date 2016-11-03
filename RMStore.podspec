@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
   s.frameworks = 'StoreKit'
   s.requires_arc = true
   s.default_subspec = 'Core'
+  s.default_subspec = 'AppReceiptVerifier'
 
   s.subspec 'Core' do |core|
     core.source_files = 'RMStore/*.{h,m}'
